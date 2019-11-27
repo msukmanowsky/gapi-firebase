@@ -3,6 +3,11 @@
 An example of how to use GAPI and Firebase Auth together to authenticate users
 and talk to Google APIs.
 
+Have a question? Book a slot to chat further or [open an issue](https://github.com/msukmanowsky/gapi-firebase/issues/new)
+
+[![book a meeting](https://storage.googleapis.com/cb8c29pbm.appspot.com/book-a-meeting.svg)](https://calendly.com/mike-sukmanowsky/open-source-consulting-chat)
+
+
 ## Background
 
 If you are trying to use [Google's JavaScript Library](https://developers.google.com/api-client-library/javascript/)
