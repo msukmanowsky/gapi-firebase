@@ -77,7 +77,7 @@
         authResponse.id_token,
         authResponse.access_token
       )
-      fb.auth().signInAndRetrieveDataWithCredential(credential)
+      fb.auth().signInWithCredential(credential)
         .then(({ user }) => {
           console.log('firebase: user signed in!', {
             displayName: user.displayName,
