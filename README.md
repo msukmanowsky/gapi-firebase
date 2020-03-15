@@ -42,7 +42,7 @@ const credential = firebase.auth.GoogleAuthProvider.credential(
   authResponse.id_token,
   authResponse.access_token
 )
-firebase.auth().signInAndRetrieveDataWithCredential(credential)
+firebase.auth().signInWithCredential(credential)
 ```
 
 There are some additional concerns to keep in mind like signing out of both
